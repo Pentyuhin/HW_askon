@@ -13,5 +13,25 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Исходные файлы\HW_2">
+      <UniqueIdentifier>{685643c0-c730-471b-bc4c-d8d52acb950d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="2_1.cpp">
+      <Filter>Исходные файлы\HW_2</Filter>
+    </ClCompile>
+    <ClCompile Include="2_2.cpp">
+      <Filter>Исходные файлы\HW_2</Filter>
+    </ClCompile>
+    <ClCompile Include="2_3.cpp">
+      <Filter>Исходные файлы\HW_2</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы\HW_2</Filter>
+    </ClCompile>
+    <ClCompile Include="2_4.cpp">
+      <Filter>Исходные файлы\HW_2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
