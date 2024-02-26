@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <typeinfo>
 // #include <windows.h>
 
@@ -13,20 +13,20 @@ static int word()
 
     char word;
 
-    cout << "Ââåäèòå ñèìâîë: ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐ¸Ð¼Ð²Ð¾Ð»: ";
     cin >> word;
 
     int ascii = static_cast<int>(word);
 
 
     if (islower(word)) {
-        cout << "Áóêâå " << word << " ñîîòâåòñòâóåò ïðîïèñíàÿ áóêâà: " << static_cast<char>(toupper(word)) << "  " << "ASCII êîä ñèìâîëà: " << ascii << endl;
+        cout << "Ð‘ÑƒÐºÐ²Ðµ " << word << " ÑÐ¾Ð¾Ñ‚Ð²ÐµÑ‚ÑÑ‚Ð²ÑƒÐµÑ‚ Ð¿Ñ€Ð¾Ð¿Ð¸ÑÐ½Ð°Ñ Ð±ÑƒÐºÐ²Ð°: " << static_cast<char>(toupper(word)) << "  " << "ASCII ÐºÐ¾Ð´ ÑÐ¸Ð¼Ð²Ð¾Ð»Ð°: " << ascii << endl;
     }
     else if (isupper(word)) {
-        cout << "Áóêâå " << word << " ñîîòâåòñòâóåò ñòðî÷íàÿ áóêâà: " << static_cast<char>(tolower(word)) << "  " << "ASCII êîä ñèìâîëà: " << ascii << endl;
+        cout << "Ð‘ÑƒÐºÐ²Ðµ " << word << " ÑÐ¾Ð¾Ñ‚Ð²ÐµÑ‚ÑÑ‚Ð²ÑƒÐµÑ‚ ÑÑ‚Ñ€Ð¾Ñ‡Ð½Ð°Ñ Ð±ÑƒÐºÐ²Ð°: " << static_cast<char>(tolower(word)) << "  " << "ASCII ÐºÐ¾Ð´ ÑÐ¸Ð¼Ð²Ð¾Ð»Ð°: " << ascii << endl;
     }
     else {
-        cout << "Ñèìâîë " << word << " íå ÿâëÿåòñÿ áóêâîé " << endl;
+        cout << "Ð¡Ð¸Ð¼Ð²Ð¾Ð» " << word << " Ð½Ðµ ÑÐ²Ð»ÑÐµÑ‚ÑÑ Ð±ÑƒÐºÐ²Ð¾Ð¹ " << endl;
     }
 
     return 0;

@@ -1,4 +1,4 @@
-#include <iostream>
+п»ї#include <iostream>
 // #include <windows.h>
 
 using namespace std;
@@ -13,29 +13,29 @@ static int exponent()
     double base, result = 1;
     int exponent;
 
-    cout << "Возведения произвольного числа 'x' в целочисленную степень 'n' " << endl;
+    cout << "Р’РѕР·РІРµРґРµРЅРёСЏ РїСЂРѕРёР·РІРѕР»СЊРЅРѕРіРѕ С‡РёСЃР»Р° 'x' РІ С†РµР»РѕС‡РёСЃР»РµРЅРЅСѓСЋ СЃС‚РµРїРµРЅСЊ 'n' " << endl;
 
-    cout << "Введите х: ";
+    cout << "Р’РІРµРґРёС‚Рµ С…: ";
     cin >> base;
-    cout << "Введите степень n: ";
+    cout << "Р’РІРµРґРёС‚Рµ СЃС‚РµРїРµРЅСЊ n: ";
     cin >> exponent;
 
-    // Проверяем знак степени
+    // РџСЂРѕРІРµСЂСЏРµРј Р·РЅР°Рє СЃС‚РµРїРµРЅРё
     if (exponent > 0)
     {
-        // Вычисляем степень числа
+        // Р’С‹С‡РёСЃР»СЏРµРј СЃС‚РµРїРµРЅСЊ С‡РёСЃР»Р°
         for (int i = 0; i < exponent; i++) {
             result *= base;
         }
-        cout << base << " в степени " << exponent << " равно " << result << endl;
+        cout << base << " РІ СЃС‚РµРїРµРЅРё " << exponent << " СЂР°РІРЅРѕ " << result << endl;
     }
     else if (exponent < 0)
     {
-        cout << "степень " << exponent << " не может быть отрицательной!" << endl;
+        cout << "СЃС‚РµРїРµРЅСЊ " << exponent << " РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ РѕС‚СЂРёС†Р°С‚РµР»СЊРЅРѕР№!" << endl;
     }
     else
     {
-        cout << "степень" << exponent << " не может быть нулем!" << endl;
+        cout << "СЃС‚РµРїРµРЅСЊ" << exponent << " РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ РЅСѓР»РµРј!" << endl;
     }
 
     return 0;

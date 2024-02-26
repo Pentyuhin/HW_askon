@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 // #include <windows.h>
 
 using namespace std;
@@ -11,12 +11,12 @@ static int celsius()
 
     int celsius;
 
-    cout << "Ââåäèòå òåìïåðàòóðó â ãðàäóñàõ Öåëüñèÿ: ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚ÐµÐ¼Ð¿ÐµÑ€Ð°Ñ‚ÑƒÑ€Ñƒ Ð² Ð³Ñ€Ð°Ð´ÑƒÑÐ°Ñ… Ð¦ÐµÐ»ÑŒÑÐ¸Ñ: ";
     cin >> celsius;
 
-    cout << "\nÒàáëèöà ïðåîáðàçîâàíèÿ òåìïåðàòóð:\n";
+    cout << "\nÐ¢Ð°Ð±Ð»Ð¸Ñ†Ð° Ð¿Ñ€ÐµÐ¾Ð±Ñ€Ð°Ð·Ð¾Ð²Ð°Ð½Ð¸Ñ Ñ‚ÐµÐ¼Ð¿ÐµÑ€Ð°Ñ‚ÑƒÑ€:\n";
 
-    cout << "Öåëüñèé   Ôàðåíãåéò   Êåëüâèí\n";
+    cout << "Ð¦ÐµÐ»ÑŒÑÐ¸Ð¹   Ð¤Ð°Ñ€ÐµÐ½Ð³ÐµÐ¹Ñ‚   ÐšÐµÐ»ÑŒÐ²Ð¸Ð½\n";
 
     double kelvinTemp = celsius + 273.15;
     double fahrenheitTemp = 1.8 * celsius + 32;
