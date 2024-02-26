@@ -1,13 +1,13 @@
 #include <iostream>
-#include <windows.h>
+// #include <windows.h>
 
 using namespace std;
 
 static int temp()
 {
 
-    SetConsoleCP(1251);
-    SetConsoleOutputCP(1251);
+    // SetConsoleCP(1251);
+    // SetConsoleOutputCP(1251);
 
     double minTemp, maxTemp, step;
 

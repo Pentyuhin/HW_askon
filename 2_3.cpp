@@ -1,6 +1,6 @@
 #include <iostream>
 #include <typeinfo>
-#include <windows.h>
+// #include <windows.h>
 
 using namespace std;
 
@@ -8,8 +8,8 @@ using namespace std;
 static int word()
 {
 
-    SetConsoleCP(1251);
-    SetConsoleOutputCP(1251);
+    // SetConsoleCP(1251);
+    // SetConsoleOutputCP(1251);
 
     char word;
 
