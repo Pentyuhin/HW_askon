@@ -13,25 +13,42 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Исходные файлы\HW_2">
-      <UniqueIdentifier>{685643c0-c730-471b-bc4c-d8d52acb950d}</UniqueIdentifier>
+    <Filter Include="Исходные файлы\HW2">
+      <UniqueIdentifier>{8d5856c2-e32a-49b4-9383-e127ef267684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\HW3">
+      <UniqueIdentifier>{3e4ab990-9de2-4a1f-a4d7-c1f6d0ec4d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\HW3">
+      <UniqueIdentifier>{80359607-f06e-45eb-804b-d0aa0b857e39}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2_1.cpp">
-      <Filter>Исходные файлы\HW_2</Filter>
-    </ClCompile>
-    <ClCompile Include="2_2.cpp">
-      <Filter>Исходные файлы\HW_2</Filter>
-    </ClCompile>
-    <ClCompile Include="2_3.cpp">
-      <Filter>Исходные файлы\HW_2</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Исходные файлы\HW_2</Filter>
+    <ClCompile Include="2.cpp">
+      <Filter>Исходные файлы\HW2</Filter>
     </ClCompile>
     <ClCompile Include="2_4.cpp">
-      <Filter>Исходные файлы\HW_2</Filter>
+      <Filter>Исходные файлы\HW2</Filter>
     </ClCompile>
+    <ClCompile Include="2_3.cpp">
+      <Filter>Исходные файлы\HW2</Filter>
+    </ClCompile>
+    <ClCompile Include="2_2.cpp">
+      <Filter>Исходные файлы\HW2</Filter>
+    </ClCompile>
+    <ClCompile Include="2_1.cpp">
+      <Filter>Исходные файлы\HW2</Filter>
+    </ClCompile>
+    <ClCompile Include="main_statistics.cpp">
+      <Filter>Исходные файлы\HW3</Filter>
+    </ClCompile>
+    <ClCompile Include="statistics.cpp">
+      <Filter>Исходные файлы\HW3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="statistics.h">
+      <Filter>Файлы заголовков\HW3</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

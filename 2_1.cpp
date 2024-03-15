@@ -1,13 +1,13 @@
 ﻿#include <iostream>
-// #include <windows.h>
+#include <windows.h>
 
 using namespace std;
 
 
 static int celsius()
 {
-    // SetConsoleCP(1251);
-    // SetConsoleOutputCP(1251);
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
 
     int celsius;
 
